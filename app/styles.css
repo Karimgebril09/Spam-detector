@@ -1,0 +1,81 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 80px 0 0; /* Space for fixed header */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #222; /* Dark background */
+    transition: background-color 0.5s ease;
+}
+
+header {
+    width: 100%;
+    background-color: #333; /* Dark gray header */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.container {
+    background-color: #444; /* Darker container */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    width: 95%; /* Make it almost as wide as the page */
+    max-width: 1000px; /* Increase max width */
+    text-align: center;
+    color: white; /* White text */
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Ensure all content is centered */
+}
+
+textarea {
+    width: 95%; /* Increase width */
+    max-width: 900px; /* Limit for better UX */
+    height: 180px; /* Slightly bigger */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: none;
+    font-size: 16px;
+    background-color: #222; /* Darker input field */
+    color: white; /* White text */
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px; /* Ensure spacing */
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#result {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
