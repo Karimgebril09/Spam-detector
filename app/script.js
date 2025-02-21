@@ -1,7 +1,7 @@
 document.getElementById('submitButton').addEventListener('click', function () {
     const text = document.getElementById('textInput').value;
 
-    const apiUrl = 'http://localhost:8000/predict';
+    const apiUrl = 'http://localhost/predict';
 
     fetch(apiUrl, {
         method: 'POST',
